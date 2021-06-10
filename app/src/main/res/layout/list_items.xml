@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:textAlignment="center"
+        android:text="Title"
+        android:fontFamily="cursive"
+        android:layout_margin="4dp"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/category"
+        android:textAlignment="viewStart"
+        android:text="Category"
+        android:layout_margin="4dp"
+        android:textSize="24dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/pubDate"
+        android:textAlignment="viewStart"
+        android:text="Publisher Date"
+        android:layout_margin="4dp"
+        android:textSize="23dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Description"
+        android:textAlignment="viewStart"
+        android:text="Description"
+        android:layout_margin="4dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>
