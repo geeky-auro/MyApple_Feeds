@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ImageView
 import android.widget.TextView
 
 class ViewHolder(view:View)
@@ -13,6 +14,7 @@ class ViewHolder(view:View)
     val category=view.findViewById<TextView>(R.id.category)
     val description=view.findViewById<TextView>(R.id.Description)
     val pubDate=view.findViewById<TextView>(R.id.pubDate)
+    val imageor=view.findViewById<ImageView>(R.id.imageor)
 }
 
 
@@ -41,6 +43,10 @@ class myCustomAdpater(context:Context,private val resourse:Int,private val appli
             view=convertView
             viewHolder=view.tag as ViewHolder
         }
+
+
+
+
 
         viewHolder.title.text=application[position].title
         viewHolder.category.text="Category:"+application[position].category
